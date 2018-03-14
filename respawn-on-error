@@ -1,0 +1,5 @@
+#!/bin/sh
+
+until eval "$*"; do
+    sleep 1
+done
